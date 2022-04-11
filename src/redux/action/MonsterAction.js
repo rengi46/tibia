@@ -1,4 +1,4 @@
-import { SET_MONSTERS,SET_RACE,CARGANDO } from "../type/MonsterAction"
+import { SET_MONSTERS,SET_RACE,CARGANDO } from "../type/MonsterType"
 import axios from "axios";
 
 export const treaerMonstruos=(props)=>{

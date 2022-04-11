@@ -1,4 +1,4 @@
-import { SET_MONSTERS,SET_RACE,CARGANDO } from "../type/MonsterAction"
+import { SET_MONSTERS,SET_RACE,CARGANDO } from "../type/MonsterType"
 const initialState = {
     monsters: [],
     race:[],

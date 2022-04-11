@@ -7,7 +7,7 @@ const MonserCard = ({monster}) => {
   return (
     <Link to={`/monsters/${race}`}>
         <div className='p-2 m-2 '>
-            <img className="w-2/3 h-2/3 " src={image_url} alt="Card image cap" />
+            <img className="w-2/3 h-2/3 m-auto" src={image_url} alt="Card image cap" />
             <div className='text-center'>{name}</div>
         </div>
     </Link>

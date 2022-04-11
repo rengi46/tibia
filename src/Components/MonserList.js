@@ -10,7 +10,7 @@ export const MonserList = () => {
         dispatch(treaerMonstruos(),false)
     }, [dispatch])
   return (
-    <div className='grid grid-cols-8'>
+    <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8'>
         {monsters.creatures? monsters.creatures.creature_list.map((monster,key)=>(
             <MonserCard key={key} monster={monster}/>
         )):<p>no hay nada</p>}
